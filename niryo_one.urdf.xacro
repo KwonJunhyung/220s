@@ -19,7 +19,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<robot name="HS220_2"
+<robot name="HS220"
   <link name="world"/>
   <joint name="joint_world" type="fixed">
     <parent link="world"/>
@@ -48,7 +48,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/base_link.STL" />
+          filename="package://HS220/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -62,7 +62,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/base_link.STL" />
+          filename="package://HS220/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -88,7 +88,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link1.STL" />
+          filename="package://HS220/meshes/link1.STL" />
       </geometry>
       <material
         name="">
@@ -102,7 +102,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link1.STL" />
+          filename="package://HS220/meshes/link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -146,7 +146,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link2.STL" />
+          filename="package://HS220/meshes/link2.STL" />
       </geometry>
       <material
         name="">
@@ -160,7 +160,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link2.STL" />
+          filename="package://HS220/meshes/link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -204,7 +204,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link3.STL" />
+          filename="package://HS220/meshes/link3.STL" />
       </geometry>
       <material
         name="">
@@ -218,7 +218,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link3.STL" />
+          filename="package://HS220/meshes/link3.STL" />
       </geometry>
     </collision>
   </link>
@@ -262,7 +262,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link4.STL" />
+          filename="package://HS220/meshes/link4.STL" />
       </geometry>
       <material
         name="">
@@ -276,7 +276,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link4.STL" />
+          filename="package://HS220/meshes/link4.STL" />
       </geometry>
     </collision>
   </link>
@@ -320,7 +320,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link5.STL" />
+          filename="package://HS220/meshes/link5.STL" />
       </geometry>
       <material
         name="">
@@ -334,7 +334,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link5.STL" />
+          filename="package://HS220/meshes/link5.STL" />
       </geometry>
     </collision>
   </link>
@@ -378,7 +378,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link6.STL" />
+          filename="package://HS220/meshes/link6.STL" />
       </geometry>
       <material
         name="">
@@ -392,7 +392,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://meshes/link6.STL" />
+          filename="package://HS220/meshes/link6.STL" />
       </geometry>
     </collision>
   </link>
