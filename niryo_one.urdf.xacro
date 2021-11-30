@@ -19,7 +19,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="HS220"
+<robot name="HS220"
   <link name="world"/>
   <joint name="joint_world" type="fixed">
     <parent link="world"/>
